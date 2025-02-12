@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.portfolio-container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.portfolio-header {
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.portfolio-content {
+    padding: 20px;
+}
+
+.portfolio-section {
+    background: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.portfolio-section h2 {
+    color: #333;
+}
+
+.portfolio-section ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.portfolio-section a {
+    color: #007BFF;
+    text-decoration: none;
+}
