@@ -1,45 +1,69 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    color: #333;
 }
 
 .portfolio-container {
     width: 80%;
     margin: auto;
-    overflow: hidden;
+    padding: 20px;
 }
 
 .portfolio-header {
-    background: #333;
-    color: white;
-    padding: 20px;
     text-align: center;
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    color: #6a0572;
 }
 
 .portfolio-content {
-    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
 }
 
-.portfolio-section {
-    background: white;
-    margin: 20px 0;
+.portfolio-card {
+    background: #fff;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 45%;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.portfolio-card:hover {
+    transform: scale(1.05);
 }
 
 .portfolio-section h2 {
-    color: #333;
+    color: #ff6f61;
+    border-bottom: 3px solid #ff9a9e;
+    padding-bottom: 5px;
 }
 
 .portfolio-section ul {
-    list-style-type: square;
-    padding-left: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.portfolio-section li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
 }
 
 .portfolio-section a {
-    color: #007BFF;
+    color: #6a0572;
     text-decoration: none;
+    font-weight: bold;
+}
+
+.portfolio-section a:hover {
+    text-decoration: underline;
 }
